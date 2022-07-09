@@ -1,0 +1,36 @@
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 12vw;
+}
+
+.links i{
+    color:#cfd1d4;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.links i:hover{
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 620px) {
+    .links{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 950px) and (min-width: 600px) {
+    .links{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 25vw;
+    }
+    
+}

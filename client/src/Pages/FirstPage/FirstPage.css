@@ -1,0 +1,228 @@
+.firstPage{
+    background: linear-gradient(to right,#0f151e , #141b24);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstPage .up{
+    margin-top: 5vh;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstPage .left{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5vw;
+    padding-right: 2.5vw;
+}
+
+.firstPage .left h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.6rem;
+    letter-spacing:1.5px;
+    font-weight: bold;
+    color : #cfd1d4;
+    margin-bottom: 0;
+}
+
+.firstPage .left p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing:0.7px;
+    color : rgb(207,209,212,0.7);
+    margin-bottom: 7vh;
+}
+
+.firstPage .right{
+    margin-top: 5vh;
+    width: 58vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding-left: 2.5vw;
+    padding-right: 5vw;
+}
+
+.firstPage .right img{
+    width: 100%;
+    height: 75vh !important;
+    object-fit: fill;
+}
+
+.firstPage .down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.firstPage .down .links{
+    position: absolute;
+    right: 0;
+    margin-right: 5vw;
+}
+
+
+.firstPage button{
+    width: 23vw;
+    transform: translateX(-6vw);
+}
+
+.snackBar button{
+    border: none;
+    padding : 0;
+    border-radius: 100%;
+    width : 20px;
+    color: white;
+    cursor : pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0;
+    line-height : 0;
+    letter-spacing:0;
+}
+
+@media screen and (max-width: 620px) {  
+    .snackBar button{
+        border: none;
+        padding : 0 !important; 
+        border-radius: 100%;
+        width : 20px !important;
+        color: white !important;
+        cursor : pointer;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0 !important; 
+        line-height : 0 !important;
+        letter-spacing:0 !important;
+    }  
+    .firstPage .up{
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    
+    .firstPage .left{
+        width: 80vw;
+    }
+    
+    .firstPage .left h1{
+        margin-top:25px;
+        text-align: center;
+        font-size: 1.4rem;
+        letter-spacing:1.2px;
+    }
+    
+    .firstPage .left p{
+        text-align: center;
+        font-size: 11px;
+        letter-spacing:0.5px;
+        margin-bottom: 10px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 15px;
+    }
+    
+    .firstPage .right{
+        margin-top: 3vh;
+        width: 80vw;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .firstPage .right img{
+        width: 90%;
+        height: 35vh !important;
+    }
+    
+    .firstPage .down{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .firstPage .down .links{
+        position: relative;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+      
+    .firstPage button{
+        width: 66vw !important;
+        transform: translateX(0);
+    } 
+
+    .firstPage .down a{
+        display:none;
+    }
+
+}
+  
+@media screen and (max-width: 950px) and (min-width: 600px) {
+    .firstPage .up{
+        margin-top: 0;
+        flex-direction: column;
+    }
+    
+    .firstPage .left{
+        width: 80vw;
+    }
+    
+    .firstPage .left h1{
+        margin-top:0;
+        text-align: center;
+        font-size: 2.4rem;
+        letter-spacing:1.5px;
+    }
+    
+    .firstPage .left p{
+        text-align: center;
+        font-size: 14px;
+        letter-spacing:0.7px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .firstPage .right{
+        margin-top: 5vh;
+        width: 80vw;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .firstPage .right img{
+        width: 100%;
+        height: 40vh !important;
+    }
+    
+    .firstPage .down{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .firstPage .down .links{
+        position: relative;
+        margin-top:10px;
+        margin-right: 0;
+    }
+      
+    .firstPage button{
+        width: 66vw !important;
+        transform: translateX(0);
+    } 
+
+    .firstPage .down a{
+        display:none;
+    }
+}
